@@ -54,6 +54,7 @@ export default function ContactForm() {
               name="firstName"
               value={fromDetail.firstName}
               onChange={onChangeHandler}
+              data-aos="fade-up"
             />
             {flag ? (
               <></>
@@ -74,6 +75,7 @@ export default function ContactForm() {
               name="lastName"
               value={fromDetail.lastName}
               onChange={onChangeHandler}
+              data-aos="fade-up"
             />
             {flag ? (
               <></>
@@ -96,6 +98,7 @@ export default function ContactForm() {
               name="email"
               value={fromDetail.email}
               onChange={onChangeHandler}
+              data-aos="fade-up"
             />
             {flag ? (
               <></>
@@ -116,6 +119,7 @@ export default function ContactForm() {
               name="phoneNumber"
               value={fromDetail.phoneNumber}
               onChange={onChangeHandler}
+              data-aos="fade-up"
             />
             {flag ? (
               <></>
@@ -138,6 +142,7 @@ export default function ContactForm() {
             style={{ background: "transparent" }}
             value={fromDetail.message}
             onChange={onChangeHandler}
+            data-aos="fade-up"
           ></textarea>
           {flag ? (
             <></>
@@ -150,7 +155,10 @@ export default function ContactForm() {
           )}
         </div>
         <div className="row px-3 w-50 pt-5">
-          <button className="formBtn py-2 fw-semibold rounded-pill border-0 py-1">
+          <button
+            className="formBtn py-2 fw-semibold rounded-pill border-0 py-1"
+            data-aos="fade-up"
+          >
             Send Message
           </button>
         </div>

@@ -34,14 +34,19 @@ export default function Header() {
           <div className="carousel-item active c-item" data-bs-interval={10000}>
             <img src={img1} className="d-block w-100 c-img" alt="..." />
             <div className="carousel-caption d-sm-block d-md-block text-start">
-              <h1 className="">Welcome to Invento</h1>
-              <p className="mt-2 mb-4">
+              <h1 className="welcome" data-aos="fade-up">
+                Welcome to Invento
+              </h1>
+              <p className="mt-2 mb-4" data-aos="fade-up">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 quaerat similique, temporibus aspernatur facilis eos odio
                 nesciunt. Excepturi id eius nihil soluta, sint ipsam, voluptates
                 reprehenderit voluptatum, ab dicta corporis.
               </p>
-              <button className="py-3 px-5 text-uppercase border-0 rounded-pill fs-6">
+              <button
+                className="py-3 px-5 text-uppercase border-0 rounded-pill fs-6"
+                data-aos="fade-up"
+              >
                 dicover more
               </button>
             </div>
@@ -49,14 +54,19 @@ export default function Header() {
           <div className="carousel-item c-item" data-bs-interval={2000}>
             <img src={img2} className="d-block w-100 c-img" alt="..." />
             <div className="carousel-caption d-sm-block d-md-block text-start">
-              <h1 className="">Welcome to Invento</h1>
-              <p className="mt-2 mb-4">
+              <h1 className="" data-aos="fade-up">
+                Welcome to Invento
+              </h1>
+              <p className="mt-2 mb-4" data-aos="fade-up">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 quaerat similique, temporibus aspernatur facilis eos odio
                 nesciunt. Excepturi id eius nihil soluta, sint ipsam, voluptates
                 reprehenderit voluptatum, ab dicta corporis.
               </p>
-              <button className="py-3 px-5 text-uppercase border-0 rounded-pill fs-6">
+              <button
+                className="py-3 px-5 text-uppercase border-0 rounded-pill fs-6"
+                data-aos="fade-up"
+              >
                 dicover more
               </button>
             </div>
@@ -64,14 +74,19 @@ export default function Header() {
           <div className="carousel-item c-item">
             <img src={img3} className="d-block w-100 c-img" alt="..." />
             <div className="carousel-caption d-sm-block d-md-block text-start">
-              <h1 className="">Welcome to Invento</h1>
-              <p className="mt-2 mb-4">
+              <h1 className="" data-aos="fade-up">
+                Welcome to Invento
+              </h1>
+              <p className="mt-2 mb-4" data-aos="fade-up">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 quaerat similique, temporibus aspernatur facilis eos odio
                 nesciunt. Excepturi id eius nihil soluta, sint ipsam, voluptates
                 reprehenderit voluptatum, ab dicta corporis.
               </p>
-              <button className="py-3 px-5 text-uppercase border-0 rounded-pill fs-6">
+              <button
+                className="py-3 px-5 text-uppercase border-0 rounded-pill fs-6"
+                data-aos="fade-up"
+              >
                 dicover more
               </button>
             </div>

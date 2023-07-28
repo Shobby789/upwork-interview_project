@@ -5,21 +5,27 @@ export default function Address() {
     <>
       <div className="address-box rounded py-5">
         <div className="fieldName mx-auto rounded-pill">
-          <h6>Address</h6>
+          <h6 data-aos="fade-up">Address</h6>
         </div>
-        <h6 className="mx-auto">London, Baker Street, 221b</h6>
+        <h6 className="mx-auto" data-aos="fade-up">
+          London, Baker Street, 221b
+        </h6>
         <div className="fieldName mx-auto rounded-pill">
-          <h6>Email</h6>
+          <h6 data-aos="fade-up">Email</h6>
         </div>
-        <h6 className="mx-auto">invento@gmail.com</h6>
+        <h6 className="mx-auto" data-aos="fade-up">
+          invento@gmail.com
+        </h6>
         <div className="fieldName mx-auto rounded-pill">
-          <h6>Phone</h6>
+          <h6 data-aos="fade-up">Phone</h6>
         </div>
-        <h6 className="mx-auto">+92 212 422-1417</h6>
+        <h6 className="mx-auto" data-aos="fade-up">
+          +92 212 422-1417
+        </h6>
         <div className="fieldName mx-auto rounded-pill">
-          <h6>Socials</h6>
+          <h6 data-aos="fade-up">Socials</h6>
         </div>
-        <p className="text-center">
+        <p className="text-center" data-aos="fade-up">
           <a href="#" className="mx-2">
             <i className="fa-brands fa-facebook fs-4"></i>
           </a>

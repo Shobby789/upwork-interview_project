@@ -17,10 +17,14 @@ export default function Portfolio() {
         className="container fluid py-5 portfolio-section text-center text-white"
         id="portfolio"
       >
-        <h5 className="text-uppercase fw-bold mt-4">take a look</h5>
-        <div className="line mx-auto rounded-pill"></div>
-        <h1 className="my-3 fw-bold">Our Projects</h1>
-        <p className="w-75 mx-auto fs-5">
+        <h5 className="text-uppercase fw-bold mt-4" data-aos="fade-up">
+          take a look
+        </h5>
+        <div className="line mx-auto rounded-pill" data-aos="fade-up"></div>
+        <h1 className="my-3 fw-bold" data-aos="fade-up">
+          Our Projects
+        </h1>
+        <p className="w-75 mx-auto fs-5" data-aos="fade-up">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquid
           hic repellat dignissimos corporis repudiandae perspiciatis accusantium
           odit totam deleniti unde ullam minima blanditiis facere aut, eum fuga
@@ -30,36 +34,42 @@ export default function Portfolio() {
           <button
             className="filterBtn py-2 px-4 rounded-pill m-2"
             onClick={() => setItems(projects)}
+            data-aos="fade-up"
           >
             All
           </button>
           <button
             className="filterBtn py-2 px-3 rounded-pill m-2"
             onClick={() => filterProducts("Web Design")}
+            data-aos="fade-up"
           >
             Web Design
           </button>
           <button
             className="filterBtn py-2 px-3 rounded-pill m-2"
             onClick={() => filterProducts("SEO")}
+            data-aos="fade-up"
           >
             SMM and SEO
           </button>
           <button
             className="filterBtn py-2 px-3 rounded-pill m-2"
             onClick={() => filterProducts("IT")}
+            data-aos="fade-up"
           >
             IT Outsourcing
           </button>
           <button
             className="filterBtn py-2 px-3 rounded-pill m-2"
             onClick={() => filterProducts("Frontend")}
+            data-aos="fade-up"
           >
             Frontend Developing
           </button>
           <button
             className="filterBtn py-2 px-3 rounded-pill m-2"
             onClick={() => filterProducts("Website")}
+            data-aos="fade-up"
           >
             Website Developing
           </button>

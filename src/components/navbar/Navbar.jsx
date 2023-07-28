@@ -11,7 +11,7 @@ export default function Navbar() {
       >
         <div className="container-fluid">
           <a className="navbar-brand fs-3 fw-bold pt-0" href="#">
-            <img src={logo} alt="" className="logo" />
+            <img src={logo} alt="" className="logo" data-aos="fade-right" />
             {/* invento */}
           </a>
           <button
@@ -34,27 +34,44 @@ export default function Navbar() {
                   className="nav-link active fs-5"
                   aria-current="page"
                   href="#home"
+                  data-aos="fade-right"
                 >
                   Home
                 </a>
               </li>
               <li className="nav-item px-3">
-                <a href="#about" className="nav-link text-dark fs-5">
+                <a
+                  href="#about"
+                  className="nav-link text-dark fs-5"
+                  data-aos="fade-right"
+                >
                   About
                 </a>
               </li>
               <li className="nav-item px-3">
-                <a href="#services" className="nav-link text-dark fs-5">
+                <a
+                  href="#services"
+                  className="nav-link text-dark fs-5"
+                  data-aos="fade-right"
+                >
                   Services
                 </a>
               </li>
               <li className="nav-item px-3">
-                <a href="#portfolio" className="nav-link text-dark fs-5">
+                <a
+                  href="#portfolio"
+                  className="nav-link text-dark fs-5"
+                  data-aos="fade-right"
+                >
                   Portfolio
                 </a>
               </li>
               <li className="nav-item px-3">
-                <a href="#contact" className="nav-link text-dark fs-5">
+                <a
+                  href="#contact"
+                  className="nav-link text-dark fs-5"
+                  data-aos="fade-right"
+                >
                   Contact
                 </a>
               </li>

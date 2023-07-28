@@ -6,6 +6,7 @@ export default function ServiceCard({ id, title, image }) {
       <div
         className="card services-card py-4 mx-4 mb-5 text-center"
         style={{ width: "18rem" }}
+        data-aos="fade-up"
       >
         <div className="fs-1 mb-0 text-light">{image}</div>
         {/* <i

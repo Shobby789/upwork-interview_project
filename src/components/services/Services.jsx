@@ -9,9 +9,15 @@ export default function Services() {
         className="container-fluid py-5 text-center services-section text-white"
         id="services"
       >
-        <h5 className="text-uppercase fw-bold">our services</h5>
-        <div className="line mx-auto mb-4 rounded-pill" id="service-line"></div>
-        <h1 className="fw-bold">
+        <h5 className="text-uppercase fw-bold" data-aos="fade-up">
+          our services
+        </h5>
+        <div
+          className="line mx-auto mb-4 rounded-pill"
+          id="service-line"
+          data-aos="fade-up"
+        ></div>
+        <h1 className="fw-bold" data-aos="fade-up">
           We Run All Kinds Of Services
           <br />
           In Form Of Information & Technologies

@@ -4,7 +4,10 @@ import img1 from "../../images/review-3.jpg";
 export default function TestimonialCard() {
   return (
     <>
-      <div className="tesimonial-card p-4 border-0 bg-white rounded mx-auto">
+      <div
+        className="tesimonial-card p-4 border-0 bg-white rounded mx-auto"
+        data-aos="fade-up"
+      >
         <img src={img1} alt="" className="client-img rounded-circle mb-3" />
         <div className="card-body text-dark text-justify">
           <h3 className="card-title fw-bold text-light">John Doe</h3>
