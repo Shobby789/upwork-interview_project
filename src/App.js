@@ -1,3 +1,4 @@
+import { ToastContainer } from "react-toastify";
 import "./App.css";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -24,6 +25,7 @@ AOS.init({
 function App() {
   return (
     <div className="App">
+      <ToastContainer />
       <Navbar />
       <Header />
       <Intro />

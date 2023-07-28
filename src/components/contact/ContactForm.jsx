@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Contact.css";
+import { toast } from "react-toastify";
 
 export default function ContactForm() {
   const [fromDetail, setFormDetail] = useState({
@@ -30,7 +31,7 @@ export default function ContactForm() {
         phoneNumber: "",
         message: "",
       });
-      alert("Form Submitted");
+      // alert("Form Submitted");
     } else {
       // alert("Please fill in the fields");
       console.log("Fill in the fields");
