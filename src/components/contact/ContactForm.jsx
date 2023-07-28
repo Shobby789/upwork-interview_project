@@ -45,7 +45,7 @@ export default function ContactForm() {
     <>
       <form onSubmit={onSubmitHandler} className="pt-5 py-5 contact-form px-3">
         <div className="row mb-2">
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
             <input
               type="text"
               className="text-white w-100 py-3 inputField"
@@ -54,19 +54,10 @@ export default function ContactForm() {
               name="firstName"
               value={fromDetail.firstName}
               onChange={onChangeHandler}
-              data-aos="fade-up"
+              required
             />
-            {flag ? (
-              <></>
-            ) : (
-              <>
-                <p className="text-start mt-1 text-danger">
-                  Please Enter Your First Name
-                </p>
-              </>
-            )}
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
             <input
               type="text"
               className="text-white w-100 py-3 inputField"
@@ -75,21 +66,12 @@ export default function ContactForm() {
               name="lastName"
               value={fromDetail.lastName}
               onChange={onChangeHandler}
-              data-aos="fade-up"
+              required
             />
-            {flag ? (
-              <></>
-            ) : (
-              <>
-                <p className="text-start mt-1 text-danger">
-                  Please Enter Your Last Name
-                </p>
-              </>
-            )}
           </div>
         </div>
         <div className="row mb-4">
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
             <input
               type="text"
               className="w-100 text-white py-3 inputField"
@@ -98,19 +80,10 @@ export default function ContactForm() {
               name="email"
               value={fromDetail.email}
               onChange={onChangeHandler}
-              data-aos="fade-up"
+              required
             />
-            {flag ? (
-              <></>
-            ) : (
-              <>
-                <p className="text-start mt-1 text-danger">
-                  Please Enter Your Email Address
-                </p>
-              </>
-            )}
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
             <input
               type="text"
               className="text-white w-100 py-3 inputField"
@@ -119,20 +92,11 @@ export default function ContactForm() {
               name="phoneNumber"
               value={fromDetail.phoneNumber}
               onChange={onChangeHandler}
-              data-aos="fade-up"
+              required
             />
-            {flag ? (
-              <></>
-            ) : (
-              <>
-                <p className="text-start mt-1 text-danger">
-                  Please Enter Your Phone Number
-                </p>
-              </>
-            )}
           </div>
         </div>
-        <div className="row px-2 mb-4">
+        <div className="row px-2 mb-4" data-aos="fade-up">
           <textarea
             className="text-white inputField"
             name="message"
@@ -142,23 +106,11 @@ export default function ContactForm() {
             style={{ background: "transparent" }}
             value={fromDetail.message}
             onChange={onChangeHandler}
-            data-aos="fade-up"
+            required
           ></textarea>
-          {flag ? (
-            <></>
-          ) : (
-            <>
-              <p className="text-start mt-1 text-danger">
-                Please Enter Your Message
-              </p>
-            </>
-          )}
         </div>
-        <div className="row px-3 w-50 pt-5">
-          <button
-            className="formBtn py-2 fw-semibold rounded-pill border-0 py-1"
-            data-aos="fade-up"
-          >
+        <div className="row px-3 w-50 pt-5" data-aos="fade-up">
+          <button className="formBtn py-2 fw-semibold rounded-pill border-0 py-1">
             Send Message
           </button>
         </div>
