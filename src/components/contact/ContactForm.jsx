@@ -33,12 +33,7 @@ export default function ContactForm() {
       alert("Form Submitted");
     } else {
       // alert("Please fill in the fields");
-      if (firstName && lastName && email && phoneNumber && message) {
-        console.log("Ok");
-        setFlag(true);
-      } else {
-        setFlag(false);
-      }
+      console.log("Fill in the fields");
     }
   };
   return (
