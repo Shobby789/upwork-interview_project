@@ -1,0 +1,23 @@
+.services-card {
+  border: none;
+  color: white;
+  background-color: rgb(4, 4, 26);
+  box-shadow: 0 0 20px skyblue;
+}
+.services-card:hover {
+  position: relative;
+  /* box-shadow: 0 0 35px skyblue; */
+  box-shadow: 0 0 0px skyblue;
+  transition: 0.3s;
+  background-image: linear-gradient(
+    90deg,
+    #403ba1 0%,
+    #366896 35%,
+    #00d4ff 100%
+  );
+}
+
+.learnMore:hover {
+  color: white;
+  transition: 0.3s;
+}

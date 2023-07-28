@@ -1,0 +1,33 @@
+.intro-section {
+  /* background-color: rgb(4, 4, 31); */
+  background-color: rgb(4, 4, 26);
+}
+
+.callBtn {
+  padding: 12px 20px;
+  font-size: 17px;
+  /* background: linear-gradient(#976deb, #569a9c); */
+  background-image: linear-gradient(
+    90deg,
+    #403ba1 0%,
+    #366896 35%,
+    #00d4ff 100%
+  );
+  border: 0px solid white;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.years {
+  color: #5ce1e6;
+  font-size: 5vw;
+  margin-right: 10px;
+  text-shadow: 10px 10px 5px #8c52ff;
+}
+
+@media screen and (max-width: 600px) {
+  .years {
+    font-size: 12vw;
+  }
+}

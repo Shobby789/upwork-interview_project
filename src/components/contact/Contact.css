@@ -1,0 +1,95 @@
+.contact-section {
+  width: 100%;
+  height: 115vh;
+  background-image: url("../../images/contact-3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#line {
+  width: 120px;
+  border: 3px solid #403ba1;
+}
+
+.address-box {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.address-box .fieldName {
+  width: 90%;
+  padding: 10px 0 3px;
+  margin: 18px 0;
+  /* background: linear-gradient(#8c52ff, #5ce1e6); */
+  background-image: linear-gradient(
+    90deg,
+    #403ba1 0%,
+    #366896 35%,
+    #00d4ff 100%
+  );
+}
+
+.contact-form {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.inputField {
+  background-color: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, #976deb, #569a9c) 1;
+  outline: none;
+}
+
+.inputField::placeholder {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.formBtn {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  /* border-image: linear-gradient(45deg, #976deb, #569a9c) 1; */
+  background-image: linear-gradient(
+    90deg,
+    #403ba1 0%,
+    #366896 35%,
+    #00d4ff 100%
+  );
+  border-radius: 0px;
+}
+.formBtn:hover {
+  background-color: whitesmoke;
+  color: white;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.fa-brands:hover {
+  color: rgb(160, 150, 150);
+}
+
+/* .fa-brands {
+  background: -webkit-linear-gradient(#403ba1 0%, #366896 35%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+@media screen and (max-width: 1024px) {
+  .contact-section {
+    height: auto;
+  }
+}

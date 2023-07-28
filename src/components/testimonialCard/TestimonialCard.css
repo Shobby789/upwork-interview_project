@@ -1,0 +1,26 @@
+.tesimonial-card {
+  width: 24rem;
+  height: auto;
+  margin: 20px 10px;
+  background-image: linear-gradient(
+    90deg,
+    #403ba1 0%,
+    #366896 35%,
+    #00d4ff 100%
+  );
+}
+
+.tesimonial-card .client-img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .tesimonial-card {
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+}

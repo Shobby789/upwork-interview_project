@@ -1,0 +1,21 @@
+.portfolio-section .line {
+  width: 100px;
+  border: 3px solid #403ba1;
+}
+
+.filterBtn {
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+  background-color: transparent;
+}
+
+.filterBtn:hover {
+  background-image: linear-gradient(
+    90deg,
+    #403ba1 0%,
+    #366896 35%,
+    #00d4ff 100%
+  );
+  color: white;
+  transition: 0.3s;
+}

@@ -1,0 +1,32 @@
+.footer-logo {
+  width: 200px;
+  height: 60px;
+}
+
+.subscribeBtn {
+  background-color: transparent;
+  color: white;
+  border: 3px solid;
+  border-image: linear-gradient(45deg, #976deb, #569a9c) 1;
+  border-radius: 20px;
+  padding: 0px 10px;
+}
+
+#subscribeEmail {
+  background-color: transparent;
+  color: white;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, #976deb, #569a9c) 1;
+  outline: none;
+  font-size: 17px;
+}
+
+#subscribeEmail::placeholder {
+  color: silver;
+}
+.socialLink {
+  color: #32a0a4;
+}
